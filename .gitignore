@@ -1,0 +1,49 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyInstaller / Build e Executáveis
+build/
+dist/
+*.exe
+*.dll
+*.so
+*.dylib
+*.spec
+
+# Binários de mídia
+**/ffmpeg.exe
+**/ffprobe.exe
+**/ffplay.exe
+
+# Ambientes virtuais
+.venv/
+venv/
+ENV/
+env/
+
+# Pastas de downloads e arquivos de mídia baixados
+/downloads/
+/test_downloads/
+meu_video_downloader/downloads/*
+!meu_video_downloader/downloads/.gitkeep
+meu_video_downloader/test_downloads/
+
+# Mapeamentos, ferramentas e agentes locais
+graphify-out/
+temp-ponytail/
+~/
+.agents/
+
+# Configurações de IDE e SO
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log

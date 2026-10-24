@@ -1,0 +1,5 @@
+yt-dlp>=2024.10.0
+customtkinter>=5.2.0
+cryptography>=42.0.0
+curl-cffi>=0.7.0
+pillow>=10.0.0
